@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react';
-import axios from 'axios';
+import Axios from 'axios';
 import PokemonCard from './PokemonCard';
 
 export default class PokemonList extends Component {
@@ -11,7 +11,7 @@ export default class PokemonList extends Component {
     }
 
     async componentDidMount() {
-        axios.get('https://pokeapi.co/api/v2/pokemon/?limit=151')
+        Axios.get('https://pokeapi.co/api/v2/pokemon/?limit=900')
         .then(response => {
             this.setState({ pokemon: response.data['results'] });
         })
@@ -36,15 +36,10 @@ export default class PokemonList extends Component {
                 <div className="container">
                     <div className="row">
                         <h2>Pokemon List</h2>
-
                         {PokeList}
-
                     </div> 
                 </div>
-                
-                
             </React.Fragment>
-
         );
     }
 }

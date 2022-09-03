@@ -14,11 +14,11 @@ export default class PokemonCard extends Component {
         const { name, url } = this.props;
         const pokemonIndex = url.split('/')[url.split('/').length - 2];
 
-        Axios.get(`https://pokeapi.co/api/v2/pokemon/${name}`).then((res) => {
-            console.log(res);
-            this.setState({ pokemonImage: res.data.sprites.front_default });
+        Axios.get(`https://pokeapi.co/api/v2/pokemon/${name}`)
+            .then((res) => {
+                this.setState({ pokemonImage: res.data.sprites.front_default });
 
-        })
+            })
 
         this.setState({ name, pokemonIndex });
         
