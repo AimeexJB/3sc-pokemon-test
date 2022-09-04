@@ -61,9 +61,7 @@ const Search = () => {
                                         </div>
                                     </div> 
                                 </div> 
-                            </Link>
-                            
-                            
+                            </Link> 
                         )
                     }  
                 </div>

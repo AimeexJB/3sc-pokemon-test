@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from "uuid";
 
 import PokemonList from '../components/PokemonList';
 
-
 const Filter = () => {
     const [ games, getGames ] = useState([]);
     const [ generation, setGeneration ] = useState("generation-i");
@@ -42,7 +41,6 @@ const Filter = () => {
             <PokemonList 
                 url={`https://pokeapi.co/api/v2/generation/${generation}`}
             />
-
         </div>
     )
 }

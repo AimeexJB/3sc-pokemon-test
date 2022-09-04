@@ -42,10 +42,6 @@ const Pokemon = () => {
                 setCatchRate(res.data.capture_rate)
             })
 
-        // Axios.get(`https://pokeapi.co/api/v2/evolution-chain/${pokemonIndex}/`)
-        //     .then((res) => {
-        //         setEvochain(res.data.chain)
-        //     })
     });
 
     const addToFavourites = () => {
