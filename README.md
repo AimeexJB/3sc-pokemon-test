@@ -3,11 +3,11 @@
 This is a code test project from [3 Sided Cube](https://3sidedcube.com).
 
 In this Project I use React Class components and Functional components to:
-    - Display a Pokemon List on a Dashboard.
-    - Display a Pokemon page with information on the selected pokemon.
-    - Search through the Pokemon database.
-    - Filter Pokemon based on their generation.
-    - Compare 2 Pokemon's stats.
+    * Display a Pokemon List on a Dashboard.
+    * Display a Pokemon page with information on the selected pokemon.
+    * Search through the Pokemon database.
+    * Filter Pokemon based on their generation.
+    * Compare 2 Pokemon's stats.
 
 I have also used Bootstrap and custom css to style the application and display the Pokemon cards. I chose Bootstrap because of their easy "card" styling and container along wiht the custom styling as that is how I would normally style the project.
 
