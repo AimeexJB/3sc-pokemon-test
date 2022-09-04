@@ -32,8 +32,3 @@ function App() {
 }
 
 export default App;
-
-// let pokeArr = localStorage.getItem("favourite");
-// pokeArr.push(pokemon.name);
-// localStorage.setItem("favourite", pokeArr);
-// localStorage.getItem("favourite");
