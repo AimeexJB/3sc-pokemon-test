@@ -51,9 +51,10 @@ a {
   width: 100px;
   height: 40px;
   margin: 20px 20px 20px 0px;
-  background-color: hsl(120, 48%, 41%);
+  background-color: #4CCAF0;
   color: white;
   border-radius: 10px;
+  border: none;
 }
 
 .select-search {
@@ -85,9 +86,8 @@ a {
   width: 100%;
   padding: 0 16px;
   background: #fff;
-  border: 1px solid transparent;
-  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15);
-  border-radius: 3px;
+  border: 1px solid #4CCAF0;
+  border-radius: 5px;
   outline: none;
   font-size: 14px;
   text-align: left;
