@@ -11,14 +11,31 @@ export default class PokemonList extends Component {
     }
 
     async componentDidMount() {
-        Axios.get('https://pokeapi.co/api/v2/pokemon/?limit=900')
+        Axios.get(this.props.url)
         .then(response => {
-            this.setState({ pokemon: response.data['results'] });
+            if(this.props.url.includes('generation')) {
+                this.setState({ pokemon: response.data.pokemon_species })
+            } else {
+                this.setState({ pokemon: response.data['results'] });
+            }
         })
         .catch(error => {
             console.log(error);
         });
+    }
 
+    componentDidUpdate() {
+        Axios.get(this.props.url)
+        .then(response => {
+            if(this.props.url.includes('generation')) {
+                this.setState({ pokemon: response.data.pokemon_species })
+            } else {
+                this.setState({ pokemon: response.data['results'] });
+            }
+        })
+        .catch(error => {
+            console.log(error);
+        });
     }
 
     render() {

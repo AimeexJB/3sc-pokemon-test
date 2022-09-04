@@ -7,7 +7,9 @@ export default class Dashboard extends Component {
     return (
       <div className='row'>
         <div className='col'>
-            <PokemonList />
+            <PokemonList
+              url='https://pokeapi.co/api/v2/pokemon/?limit=900'
+            />
         </div>
       </div>
     )

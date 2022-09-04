@@ -22,6 +22,7 @@ function App() {
               <Route path="/search" element={<Search />} />
               <Route exact path="/search/pokemon/:pokemonIndex" element={<Pokemon />} />
               <Route path="/filter" element={<Filter />} />
+              <Route exact path="/filter/pokemon/:pokemonIndex" element={<Pokemon />} />
               <Route path="/compare" element={<ComparePokemon />} />
           </Routes>
         
