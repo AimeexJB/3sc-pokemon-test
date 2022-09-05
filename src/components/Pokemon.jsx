@@ -44,12 +44,12 @@ const Pokemon = () => {
 
     });
 
-    const addToFavourites = () => {
-        // let pokeArr = localStorage.getItem("favourite");
-        // pokeArr.push(pokemon.name);
-        // localStorage.setItem("favourite", pokeArr);
-        // localStorage.getItem("favourite");
-    }
+    // const addToFavourites = () => {
+    //     // let pokeArr = localStorage.getItem("favourite");
+    //     // pokeArr.push(pokemon.name);
+    //     // localStorage.setItem("favourite", pokeArr);
+    //     // localStorage.getItem("favourite");
+    // }
 
     return (
         <div className="container">
@@ -64,7 +64,8 @@ const Pokemon = () => {
 
                 <img src={pokemon.image} />
 
-                {/* <button onClick={addToFavourites()}>Add to Favourites</button> */}
+                {/* <button className="button btn-danger" onClick={addToFavourites()}><span className="icon"><i className="fas fa-heart"></i></span></button> */}
+                                
             </div>
             
             <div className='pokemon-description'>

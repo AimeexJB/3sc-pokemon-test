@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const ComparePreview = ({ pokemon1, pokemon2 }) => {
     return (
-        <div className="">
+        <div className="preview-table">
 
             <table>
                 <tbody>

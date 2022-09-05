@@ -13,6 +13,8 @@ I have also used Bootstrap and custom css to style the application and display t
 
 I used a mix of Class and Functional components to show my understanding of both along with react Hooks. This was a challenge as I have not used Functional components and hooks before so I had to learn the difference between the new hooks and the old class methods. One particular challenge that I aced was when making the Pokemon page, this was because I needed to get the Pokemon Index from the URL but the methods that I was used to using, this.props.match.params, cannot be used in react v6 so I have to find a way around this which I did by using the hook useParams().
 
+As I mentioned during the first stage call, I havent had much experience this past year with React, only some small courses and projects in my own time, so it was definitely a challenge to get my head back into this project mindset but after a couple of hours I started to get the hang of it. 
+
 Some extra features I added are that you are able to go into the Pokemon page to view its information from both the Search page and the Filter page. I did this useing the React Browser Router and specifying the path.
 
 If I had more time for this project then I would like to style it up a bit more to look like the pokedex from either the first season of pokemon or the games. I would also have liked to style the Pokemon info page to looks like a pokemon card. Some functionality I would add in would be the ability to Create a profile and login so that the user would be able to save pokemon to their favourites and create their own teams.

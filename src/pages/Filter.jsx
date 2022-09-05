@@ -26,7 +26,7 @@ const Filter = () => {
         <div>
             <h2>Filter</h2>
 
-            <div className="filter-button">
+            <div className="filter-button row">
                 {games.map((game) => 
                     <button key={uuidv4()} className={game.name} onClick={showGeneration}> 
                         {game.name

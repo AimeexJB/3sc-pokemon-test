@@ -37,6 +37,9 @@ a {
   width: 100%;
   margin-top: 50px;
 }
+.preview-table {
+  overflow: scroll;
+}
 
 .preview table {
   width: 100%;
@@ -186,12 +189,21 @@ a {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .pokemon-info,
 .pokemon-description,
 .stats-table {
   margin: 20px;
+}
+
+.pokemon-info .button {
+  color: red;
+  border: 1px solid red;
+  background: transparent;
+  border: none;
+
 }
 
 .stats-table {
